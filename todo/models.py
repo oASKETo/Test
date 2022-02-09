@@ -13,6 +13,18 @@ class Todo(models.Model):
     def __str__(self):
         return self.title
 
+# class Todo(models.Model):
+#     lat = models.CharField(max_length=150)
+#     long = models.CharField(max_length=150)
+#     adres = models.CharField(max_length=150)
+
+# def __str__(self):
+#         return self.title
+
+
+#     def __str__(self):
+#         return self.lat1
+
 
 # class Category(models.Model):
 #     title = models.CharField(max_length=150)

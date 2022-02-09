@@ -11,6 +11,8 @@ class TodoAdmin(admin.ModelAdmin):
     list_editable = ('done',)
     list_filter = ('done',)
 
+# class TodoAdmin(admin.ModelAdmin):
+#     list_display = ('lat1', 'lat2','adres')
 
 # class CategoryAdmin(admin.ModelAdmin):
 #     list_display = ('id', 'title')
